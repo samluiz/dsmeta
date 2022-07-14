@@ -1,5 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
+
 const GlobalStyle = createGlobalStyle`
   @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
 
@@ -12,8 +13,9 @@ const GlobalStyle = createGlobalStyle`
 
 body,
 html {
-  background-color: rgb(0, 0, 0);
-  color: #fff;
+  min-height: 100vh;
+  background: ${({theme}) => theme.background};
+  color: ${({theme}) => theme.text}
 }
 
 a,

@@ -1,6 +1,4 @@
-import React from 'react';
 import styled from 'styled-components'
-import icon from '../../assets/img/notification-icon.svg'
 
 const IconButton = styled.div`
   width: 2.8125rem;
@@ -12,12 +10,4 @@ const IconButton = styled.div`
   place-items: center;
 `
 
-const NotificationButton: React.FC = () => {
-  return (
-    <IconButton>
-      <img src={icon} alt="ícone" />
-    </IconButton>
-  )
-}
-
-export default NotificationButton;
+export default IconButton
