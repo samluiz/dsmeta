@@ -1,13 +1,13 @@
 import React from 'react';
 import styled from 'styled-components'
-import icon from '../../../assets/img/notification-icon.svg'
+import icon from '../../assets/img/notification-icon.svg'
 
 const IconButton = styled.div`
-  width: 45px;
-  height: 45px;
+  width: 2.8125rem;
+  height: 2.8125rem;
   background-color: rgba(255, 107, 114, 0.1);
-  border: 1px solid rgba(255, 107, 114, 1);
-  border-radius: 10px;
+  border: 0.0625rem solid rgba(255, 107, 114, 1);
+  border-radius: 0.625rem;
   display: grid;
   place-items: center;
 `
