@@ -13,6 +13,8 @@ const Container = styled.div`
     box-shadow: 4px 6px 41px -12px rgba(0, 0, 0, 0.68);
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    overflow-x: auto;
 
     h1 {
         color: ${({ theme }) => theme.title};

@@ -7,6 +7,10 @@ const TableSkeleton = styled.table`
     margin-left: auto;
     border-collapse: collapse;
 
+    th {
+        padding: 0.625rem;
+    }
+
     td {
         padding: 0.4rem 4.4rem 0.4rem 4.2rem;
     }
