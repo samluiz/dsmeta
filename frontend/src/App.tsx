@@ -4,7 +4,6 @@ import Header from "./components/molecules/Header"
 import MainContainer from "./components/organisms/MainContainer"
 import { ThemeProvider } from 'styled-components'
 import { darkTheme, lightTheme } from './assets/styles/themes'
-import DarkMode from "./components/atoms/ThemeSwitcher/DarkMode"
 
 
 function App() {
