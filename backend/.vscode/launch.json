@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch DsmetaApplication",
+            "request": "launch",
+            "mainClass": "com.devsuperior.dsmeta.DsmetaApplication",
+            "projectName": "dsmeta",
+            "env": {
+                "twilio.sid": "AC7f442b7a96f8a2ba9fcc3286dbbb7b68",
+                "twilio.key": "2bf9d9219062dc590ef15748222e6c81",
+                "twilio.phone.from": "+19707143353",
+                "twilio.phone.to": "+5586994916566"
+            }
+        }
+    ]
+}
